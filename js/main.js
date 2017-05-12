@@ -30,7 +30,7 @@
 		window.getSelection().addRange(range);
 		
 		try {  
-			// Теперь, когда мы выбрали текст, выполним команду копирования
+			// выделение текста и команда копирования
 			var successful = document.execCommand('copy');  
 			var msg = successful ? 'successful' : 'unsuccessful';  
 			alert('Copy command was success!');  
